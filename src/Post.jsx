@@ -1,10 +1,10 @@
 import { App } from "./App";
 
-export function Post(caracters){
+export function Post(props){
     return (
         <div>
-            <strong>{caracters.author}</strong>
-            <p>{caracters.content}</p>
+            <strong>{props.author}</strong>
+            <p>{props.content}</p>
         </div>
     )
 }
